@@ -25,3 +25,7 @@ jobs:
       - name: Build the image
         run: |
           docker build --pull --no-cache -f dockerfile -t ${{ secrets.DOCKER_USERNAME }}/codynflux:latest .
+      
+      - name: Push the image
+        run: |
+          docker push ${{ secrets.DOCKER_USERNAME }}/codynflux:dev
