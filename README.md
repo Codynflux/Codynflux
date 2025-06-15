@@ -39,12 +39,7 @@ python3 main.py  # or your entry script
 
 我們歡迎來自不同領域的貢獻者！
 
-* 提交 Issues / PR
-* 設計新的工具模組
-* 擴展子代理智能行為
-* 優化流程系統與壓縮策略
-
-如需協助，請參考 \[`CONTRIBUTING.md`] 或聯繫專案維護者。
+- [點擊加入 discord 群組](https://discord.gg/hFAqB6QT9v)
 
 ---
 
