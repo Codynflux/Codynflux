@@ -1,0 +1,14 @@
+# 虛擬環境
+.venv
+.conda
+
+# VSCode 設定
+.vscode
+
+# Python cache files
+__pycache__
+*.pyc
+
+# 開發用 ipynb
+dev.ipynb
+

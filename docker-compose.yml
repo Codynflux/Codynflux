@@ -1,0 +1,21 @@
+x-default-opts: &default-opts
+  restart: unless-stopped
+  tty: true
+  stdin_open: true
+  privileged: false
+  ipc: private
+
+services:
+  clodynflux:
+    <<: *default-opts
+    image: clodynflux:latest
+    container_name: codynflux
+    shm_size: 1g
+    ports:
+      - "60180:80"
+    networks:
+      -  clodynflux-network
+
+networks:
+  clodynflux-network:
+    driver: bridge

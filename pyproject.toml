@@ -1,0 +1,21 @@
+[project]
+name = "Codynflux"
+version = "0.0.1"
+requires-python = "==3.12.8"
+dependencies = [
+    "setuptools",
+    "ipykernel",
+    "langchain",
+    "langchain_community",
+    "langchain-openai",
+    "langchain-google-genai",
+    "langchain_ollama",
+    "langchain-anthropic",
+    "fastapi",
+    "pydantic",
+    "uvicorn",
+    "gunicorn",
+    "pytest",
+    "pytest-asyncio",
+    "nest_asyncio",
+]
