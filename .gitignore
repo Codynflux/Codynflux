@@ -12,3 +12,5 @@ __pycache__
 # 開發用 ipynb
 dev.ipynb
 
+# 環境變量
+.env

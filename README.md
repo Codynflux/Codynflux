@@ -1,5 +1,12 @@
 # Codynflux
 
+<div align="center">
+  <p>  
+    <a href="https://github.com/Codynflux/Codynflux/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL_v3-green.svg" alt="License: AGPL v3" /></a>
+    <a href="https://deepwiki.com/Codynflux/Codynflux"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" /></a>
+  </p>
+</div>
+
 > **Dynamic Coding Flow Framework for Autonomous Systems**
 
 Codynflux 是一個模組化、高度自動化的代理系統開發框架，專為構建具備觀測、報告、解析、論證、再現、指揮統御等六階層智能行為的 AI 系統而設計。它結合語言模型、程式工具鏈與工作流引擎，以實現真正可自演化、自增強的任務執行與學習架構。
@@ -27,10 +34,21 @@ Codynflux 是一個模組化、高度自動化的代理系統開發框架，專�
 
 ## 🚀 快速啟動
 
+### uv 安裝並啟用
 ```bash
-git clone https://github.com/your-org/codynflux.git
+git clone https://github.com/codynflux/codynflux.git
 cd codynflux
-python3 main.py  # or your entry script
+cp example.env .env
+uv venv && uv sync
+source .venv/bin/activate
+python3 main.py
+```
+### Docker 鏡像啟用(暫未釋出)
+```bash
+git clone https://github.com/codynflux/codynflux.git
+cd codynflux
+cp example.env .env
+docker compose up -d
 ```
 
 ---
