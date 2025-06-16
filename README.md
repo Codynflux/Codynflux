@@ -27,10 +27,21 @@ Codynflux 是一個模組化、高度自動化的代理系統開發框架，專�
 
 ## 🚀 快速啟動
 
+### uv 安裝並啟用
 ```bash
-git clone https://github.com/your-org/codynflux.git
+git clone https://github.com/codynflux/codynflux.git
 cd codynflux
-python3 main.py  # or your entry script
+cp example.env .env
+uv venv && uv sync
+source .venv/bin/activate
+python3 main.py
+```
+### Docker 鏡像啟用(暫未釋出)
+```bash
+git clone https://github.com/codynflux/codynflux.git
+cd codynflux
+cp example.env .env
+docker compose up -d
 ```
 
 ---

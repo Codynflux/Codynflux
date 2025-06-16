@@ -215,7 +215,6 @@ dependencies = [
     { name = "langchain-openai" },
     { name = "nest-asyncio" },
     { name = "pydantic" },
-    { name = "pygraphviz" },
     { name = "pytest" },
     { name = "pytest-asyncio" },
     { name = "setuptools" },
@@ -235,7 +234,6 @@ requires-dist = [
     { name = "langchain-openai" },
     { name = "nest-asyncio" },
     { name = "pydantic" },
-    { name = "pygraphviz" },
     { name = "pytest" },
     { name = "pytest-asyncio" },
     { name = "setuptools" },
@@ -1216,12 +1214,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8a/0b/9fcc47d19c48b59121088dd6da2488a49d5f72dacf8262e2790a1d2c7d15/pygments-2.19.1-py3-none-any.whl", hash = "sha256:9ea1544ad55cecf4b8242fab6dd35a93bbce657034b0611ee383099054ab6d8c", size = 1225293, upload-time = "2025-01-06T17:26:25.553Z" },
 ]
-
-[[package]]
-name = "pygraphviz"
-version = "1.14"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/66/ca/823d5c74a73d6b8b08e1f5aea12468ef334f0732c65cbb18df2a7f285c87/pygraphviz-1.14.tar.gz", hash = "sha256:c10df02377f4e39b00ae17c862f4ee7e5767317f1c6b2dfd04cea6acc7fc2bea", size = 106003, upload-time = "2024-09-29T18:31:12.471Z" }
 
 [[package]]
 name = "pytest"

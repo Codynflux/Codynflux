@@ -14,7 +14,7 @@ services:
     container_name: codynflux
     shm_size: 1g
     ports:
-      - "60180:80"
+      - ${PORT}:${PORT}
     networks:
       -  clodynflux-network
 
